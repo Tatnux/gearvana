@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+      " G ",
+      " P "
+    ],
+    "key": {
+      "C": {
+        "item": "create_things_and_misc:radar"
+      },
+      "P": {
+        "item": "toms_storage:ts.wireless_terminal"
+      },
+      "G": {
+        "item": "create_things_and_misc:empty_card"
+      }
+    },
+    "result": {
+      "item": "toms_storage:ts.adv_wireless_terminal"
+    }
+  }

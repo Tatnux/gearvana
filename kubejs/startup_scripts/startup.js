@@ -4,6 +4,8 @@
 
 console.info('Hello, World! (Loaded startup scripts)')
 
+Platform.mods.kubejs.name = 'Gearvana'
+
 StartupEvents.registry('item', e => {
 	e.create('incomplete_controller', 'create:sequenced_assembly').texture("refinedstorage:item/1k_storage_part")
 })

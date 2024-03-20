@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+      " G ",
+      " P "
+    ],
+    "key": {
+      "C": {
+        "item": "create:display_board"
+      },
+      "P": {
+        "tag": "minecraft:buttons"
+      },
+      "G": {
+        "item": "create:display_link"
+      }
+    },
+    "result": {
+      "item": "toms_storage:ts.wireless_terminal"
+    }
+  }
