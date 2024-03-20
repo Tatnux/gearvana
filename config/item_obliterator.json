@@ -1,0 +1,14 @@
+{
+  "blacklisted_items": [
+    "ad_astra:hammer",
+    "ad_astra:iron_plate",
+    "ad_astra:iron_rod",
+    "twilightforest:uncrafting_table"
+  ],
+  "only_disable_interactions": [
+  ],
+  "only_disable_attacks": [
+  ],
+  "only_disable_recipes": [
+  ]
+}

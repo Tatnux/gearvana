@@ -1,0 +1,264 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "constructionwand:infinity_wand"
+		tag: {
+			wand_options: { }
+		}
+	}
+	id: "07AFC868EBFF0A4B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3E9F825093F6D6D5"
+			tasks: [{
+				id: "241CBCF1A5FB6380"
+				title: "Building Gadgets"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E9F825093F6D6D5"]
+			description: ["The Building Gadget allows you to build structures using a set of different Building Modes."]
+			id: "323184BCB5AE57EC"
+			rewards: [{
+				id: "0BA78C52A322A304"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1DAA069349EC53AD"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E9F825093F6D6D5"]
+			description: ["The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."]
+			id: "5D0BA79C9FFB9D04"
+			rewards: [{
+				id: "1ACF093FCA5491E9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "428D743AA46F6C98"
+				item: {
+					Count: 1b
+					id: "buildinggadgets2:gadget_copy_paste"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E9F825093F6D6D5"]
+			description: ["The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."]
+			id: "0DD870797487DE6F"
+			rewards: [{
+				id: "57B96D3E47A94378"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "35B56334AEBB8D72"
+				item: "buildinggadgets2:gadget_exchanging"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E9F825093F6D6D5"]
+			description: ["The Cut Paste Gadget allows you to select a large radius to &lcut&r and paste in a different location."]
+			id: "7F55CA7FFCCE6C2A"
+			rewards: [{
+				id: "174007D80AB17F06"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6965E10AEA636330"
+				item: {
+					Count: 1b
+					id: "buildinggadgets2:gadget_cut_paste"
+					tag: {
+						pastereplace: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E9F825093F6D6D5"]
+			description: ["The Destruction Gadget allows you to void a large area."]
+			id: "56B0CCE7D41493A3"
+			rewards: [{
+				id: "7863718D43F2AD58"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "45762CD81DCE013A"
+				item: "buildinggadgets2:gadget_destruction"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "34064DBE3FBC7B31"
+			rewards: [{
+				id: "501EA7C9956495A9"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "61853C16F6FD7D20"
+				item: {
+					Count: 1b
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34064DBE3FBC7B31"]
+			id: "2C34B6DD2FEBF387"
+			rewards: [{
+				id: "5A6C9D788A000E87"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "69F429BC780615FA"
+				item: {
+					Count: 1b
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C34B6DD2FEBF387"]
+			id: "74974B2763726828"
+			rewards: [{
+				id: "689E09308F53554A"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "69B19FCB2B5FA5D4"
+				item: {
+					Count: 1b
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74974B2763726828"]
+			id: "0839D2742CB9C93A"
+			rewards: [{
+				id: "0765DAF134113F8D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7166FE3049CB6A39"
+				item: {
+					Count: 1b
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34064DBE3FBC7B31"]
+			description: ["Place a block on the opposite side of the block (or row of blocks) you are facing. Maximum distance depends on wand tier. Right click empty space to place a block in midair (similar to angel blocks, hence the name). To do that, you'll need to have the block you want to place in your offhand. You can't place a block in midair if you've fallen more than 10 blocks deep (no easy rescue tool from falling into the void)."]
+			id: "1F3F1DAC13FDD5EE"
+			rewards: [{
+				id: "41B1F1A44A4E564E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5FFA6AB60AA93647"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34064DBE3FBC7B31"]
+			description: ["Destroy blocks (no tile entities) on the side facing you. Maximum number of blocks depends on wand tier. Restrictions work just like with the Construction core. Destroyed blocks disappear into the void, you can use the undo feature if you've made a mistake."]
+			id: "6403D1DB3DF7794F"
+			rewards: [{
+				id: "516990ADF8DC12DC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7DF4C63D7331EA2A"
+				item: "constructionwand:core_destruction"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E9F825093F6D6D5"]
+			id: "3AFD45EB687AE78E"
+			rewards: [{
+				id: "3AAF4C4E614A334D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "13B3C7FE58D6A3DD"
+				item: "buildinggadgets2:template_manager"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: " Building"
+}

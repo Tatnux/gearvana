@@ -1,0 +1,25 @@
+{
+	icon: "minecraft:nether_star"
+	id: "481E10AEAC95C550"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ item: "mysticalagriculture:awakened_supremium_block", random_bonus: 1 }
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:wasted_radioactive"
+					}
+				}
+			}
+			random_bonus: 3
+			weight: 3.0f
+		}
+	]
+	title: "&5Mythic Reward"
+	use_title: true
+}

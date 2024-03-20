@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "478CA30D0E606405", title: "Resources" }
+		{ id: "04FD334AECE60103", title: "Combat" }
+		{ id: "6FC15BAAC1ACFD3E", title: "Adventure" }
+	]
+}

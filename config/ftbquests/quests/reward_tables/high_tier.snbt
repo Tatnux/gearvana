@@ -1,0 +1,29 @@
+{
+	id: "24B842B34426E835"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 16, item: "minecraft:diamond" }
+		{
+			icon: "create:experience_nugget"
+			type: "xp_levels"
+			weight: 3.0f
+			xp_levels: 20
+		}
+		{
+			type: "xp_levels"
+			weight: 2.0f
+			xp_levels: 25
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 30
+		}
+		{ count: 32, item: "minecraft:iron_ingot", weight: 2.0f }
+		{ count: 64, item: "minecraft:oak_log", weight: 2.0f }
+		{ count: 3, item: "create:brass_ingot" }
+		{ count: 20, item: "create:andesite_alloy" }
+		{ count: 2, item: "minecraft:netherite_ingot" }
+	]
+	title: "High Tier"
+}

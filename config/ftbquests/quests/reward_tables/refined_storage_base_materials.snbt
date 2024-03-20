@@ -1,0 +1,12 @@
+{
+	id: "3787F5188902B0FD"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 5, item: "refinedstorage:quartz_enriched_iron", weight: 2.0f }
+		{ item: "refinedstorage:machine_casing" }
+		{ count: 5, item: "enderio:silicon" }
+	]
+	title: "Refined Storage Base Materials"
+	use_title: true
+}
